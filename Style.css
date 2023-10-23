@@ -1,0 +1,384 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 350px;
+  height: auto;
+  background-color: #1e272e22;
+  /*   margin: 20vh auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4rem;
+  padding: 10px;
+}
+
+.search__box {
+  float: left;
+  width: 0.1;
+  height: 2rem;
+  /*   display: inline; */
+  background: none;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  position: relative;
+  opacity: 1;
+  transition: all 0.75s ease-in;
+  cursor: pointer;
+  /*   border: 2px solid tomato; */
+  /*   margin-top: 5px; */
+}
+
+/* .search__box:focus, .search__box:hover {
+  background-color: #f1f2f6;
+} */
+
+.search__icon {
+  box-sizing: border-box;
+  float: left;
+  font-size: rem;
+  display: inline-block;
+  /*   justify-content: center;
+  align-items: center; */
+  margin-left: 0.8rem;
+  margin-top: 0;
+  cursor: pointer;
+  position: absolute;
+  color: #eee;
+  transition: all 0.25s ease-in;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+.container:hover > .search__box {
+  width: 85%;
+  padding: 0 1rem;
+}
+
+.container:hover > .search__icon {
+  background-color: #eee;
+}
+
+.show {
+  width: 85%;
+  border: 1px solid red;
+}
+.nav1 {
+  height: 12vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.597);
+}
+#ncon {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 3vw;
+  color: white;
+  font-size: large;
+}
+
+#ncon a {
+  margin-top: 3vh;
+  text-decoration: none;
+  margin-left: 3vw;
+  color: #eee;
+}
+#gal {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+  font-size: 2vw;
+  margin-right: 450px;
+}
+
+.Style1 {
+  text-decoration: none;
+  color: black;
+}
+#pic1 {
+  margin-top: 143px;
+  width: 100%;
+  height: 90vh;
+  background-color: red;
+}
+#pic1 img {
+  width: 100%;
+  height: 100%;
+}
+.nav {
+  background-color: #eee;
+  height: 5vh;
+}
+#textbox1 {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.431);
+  justify-content: center;
+  height: 12vw;
+  width: 40%;
+  text-align: center;
+}
+.hed {
+  font-size: 4vw;
+  font-family: Britannic bold;
+  font-weight: bolder;
+}
+#textbox1 button {
+  background-color: black;
+  color: white;
+  font-size: 1vw;
+  padding: 0.3vw 1.4vw;
+  border-radius: 3px;
+  font-family: Engravers MT;
+}
+#fship {
+  width: 100%;
+  height: 4vh;
+  background-color: #eee;
+  color: rgb(8, 8, 8);
+  font-size: 1vw;
+  font-family: Engravers MT;
+  text-align: center;
+  padding-top: 8px;
+}
+#mid {
+  width: 100%;
+  height: 100vh;
+}
+#text2 {
+  width: 100%;
+  height: 25vh;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#text2 h1 {
+  margin-top: 80px;
+  font-family: Engravers MT;
+  font-size: 50px;
+}
+
+#text2 h4 {
+  font-family: Engravers MT;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#mid1 {
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part1 {
+  height: 45vh;
+  width: 18vw;
+  background-color: red;
+  margin-left: 10px;
+}
+.part1 img {
+  height: 100%;
+  width: 100%;
+}
+/* =========  FOOTER ======== */
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.597);
+}
+.footerCon {
+  width: 90%;
+  height: 300px;
+  border-bottom: 1px solid white;
+  margin: auto;
+}
+.footerChield {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  padding-top: 38px;
+  color: white;
+}
+
+.footerBox {
+  width: 21%;
+  border-right: 1px solid white;
+  text-align: center;
+}
+.footerLogo {
+  width: 180px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.socialIcon {
+  padding-top: 20px;
+}
+.customer {
+  width: 26%;
+  padding: 25px 15px;
+  border-right: 1px solid white;
+}
+.careTitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.phoneN {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.information {
+  width: 28%;
+  padding: 10px 15px 0 15px;
+  margin-top: 20px;
+  border-right: 1px solid white;
+}
+.informationtitle {
+  font-size: 18px;
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.columnTwo {
+  display: flex;
+}
+li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.rightColumn {
+  padding-left: 33px;
+}
+
+.about {
+  width: 22%;
+  margin-top: 20px;
+  padding: 10px 15px 0 15px;
+}
+
+.footerEndCon {
+  width: 90%;
+  margin: auto;
+}
+.footerEndChield {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.footerReserved {
+  display: flex;
+  align-items: center;
+}
+.footerEndPgh {
+  padding-right: 18px;
+}
+.selected {
+  width: 70px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.597);
+  color: white;
+}
+
+.onMobile {
+  display: flex;
+  align-items: center;
+}
+.onMobilePgh {
+  font-size: 15px;
+  padding-right: 5px;
+}
+.App {
+  width: 100px;
+  height: 30px;
+  padding-left: 10px;
+}
+.b {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+#img2 {
+  height: 60vh;
+  width: 70vw;
+  background-color: red;
+  margin: 20px 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#img2 img {
+  height: 100%;
+  width: 100%;
+}
+#birthtext {
+  text-align: center;
+
+  width: 500px;
+  height: 200px;
+  font-family: Chiller;
+  position: absolute;
+  top: 216vh;
+  left: 59%;
+}
+#birthtext h5 {
+  font-size: 5.5vw;
+}
+#mad4{
+  height: 50vh;
+  width:100%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.mpart1{
+  height: 300px;
+  width: 200px;
+  background-color: red;
+  margin-left: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.spart{
+  
+  margin-top: 248px;
+  height: 40px;
+  width: 100%;
+background-color: black;
+}
+.mpart1 img{
+  height: 60%;
+  width: 100%%;
+
+}
+
